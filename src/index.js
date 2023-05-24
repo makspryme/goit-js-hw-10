@@ -26,6 +26,7 @@ fetchBreeds()
 function selectCat(e) {
   refs.boxCat.innerHTML = '';
   const loader = '<span class="loader"></span>';
+
   refs.boxCat.insertAdjacentHTML('beforeend', loader);
 
   const catId = e.target.value;
